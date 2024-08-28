@@ -11,47 +11,17 @@
     <link rel="stylesheet" href="assets/vendors/themify-icons/css/themify-icons.css">
     <!-- Bootstrap + Meyawo main styles -->
     <link rel="stylesheet" href="assets/css/meyawo.css">
-
-    <style>
-        .header-content {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            flex-wrap: wrap;
-            gap: 20px; /* Space between image and text */
-        }
-
-        .header-content .about-img-holder {
-            flex: 0 0 auto;
-            max-width: 150px; /* Adjust the size of the image */
-        }
-
-        .header-content .about-img {
-            width: 100%;
-            height: auto;
-            border-radius: 50%; /* Optional: Makes the image circular */
-        }
-
-        .header-title {
-            text-align: left;
-        }
-    </style>
 </head>
 <body>
     <!-- Page header -->
     <header id="home" class="header">
         <div class="overlay"></div>
         <div class="header-content container">
-            <div class="about-img-holder">
-                <img src="assets/imgs/man.png" class="about-img" alt="Sander Van de Veken, IT Support Engineer">
-            </div>
-            <div>
-                <h1 class="header-title">
-                    <span class="up">HI!</span>
-                    <span class="up">I am Sander Van de Veken</span>
-                </h1>
-                <p class="header-subtitle">IT Support Engineer</p>
-            </div>            
+            <h1 class="header-title">
+                <span class="up">HI!</span>
+                <span class="up">I am Sander Van de Veken</span>
+            </h1>
+            <p class="header-subtitle">IT Support Engineer</p>            
         </div>              
     </header><!-- End of page header -->
 
@@ -61,6 +31,9 @@
         <div class="container text-center">
             <!-- About wrapper -->
             <div class="about">
+                <div class="about-img-holder">
+                    <img src="assets/imgs/man.png" class="about-img" alt="Sander Van de Veken, IT Support Engineer">
+                </div>
                 <div class="about-caption">
                     <p class="section-subtitle">Who Am I ?</p>
                     <h2 class="section-title mb-3">About Me</h2>
@@ -80,8 +53,8 @@
                     <a href="mailto:sander@vandeveken.com" class="btn-rounded btn btn-outline-primary mt-4">
                         Send me an Email
                     </a>
-                    <br><br><br>        
-                    ~*This site is very much a work in progress*~
+                    <br><br><br>		
+                    ~*~This site is very much a work in progress~*~
                 </div>              
             </div><!-- End of about wrapper -->
         </div><!-- End of container -->
